@@ -1,25 +1,20 @@
 class StaticArray{
-    #length;
-    #items;
     constructor(length){
-        this.#length = length;
-        this.#items = [];
-    }
-    length(){
-        return this.#length;
+        this.length = length;
+        this.items = [];
     }
     assign(index, value){
-        if(index+1 > this.#length || index < 0){
+        if(index+1 > this.length || index < 0){
             throw "Index out of range";
         }else{
-            this.#items[index] = value;
+            this.items[index] = value;
         }
     }
     search(index){
-        if(index+1 > this.#length || index < 0){
+        if(index+1 > this.length || index < 0){
             throw "Index out of range";
         }else{
-            return this.#items[index];
+            return this.items[index];
         }
     }
 }

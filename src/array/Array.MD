@@ -16,5 +16,5 @@
 | Search    | O(n)         | O(n)          |
 | Insertion | N/A          | O(n)          |
 | Appending | N/A          | O(1)          |
-| Deketion  | N/A          | O(n)          |
+| Deletion  | N/A          | O(n)          |
 
